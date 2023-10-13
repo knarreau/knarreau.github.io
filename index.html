@@ -105,6 +105,19 @@
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
         }
+
+        /* Add new style to position image on the right */
+        .content section {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .content section img {
+            max-width: 40%; /* Adjust the width of the image as needed */
+            margin-left: 1em;
+        }
     </style>
 </head>
 
@@ -124,8 +137,8 @@
         <main>
             <section>
                 <h2>About Me</h2>
-                <img src="Kristen Narreau.jpg" alt="Kristen Narreau">
                 <p>My name is Kristen Hudson, and I am the US & Canada Technical Manager for Skills For All.</p>
+                <img src="Kristen Narreau.jpg" alt="Kristen Narreau">
                 <p>I am currently working on my Bachelors in Information Technology and my Masters in Cybersecurity. Expanding my skillset and developing my professional portfolio is my current goal for school.</p>
             </section>
 
@@ -138,13 +151,12 @@
             <section>
                 <h2>My Skills</h2>
                 <p>Here are some of the skills I've developed:</p>
-                <p></p><ul>
+                <ul>
                     <li>Web Development</li>
                     <li>Cybersecurity</li>
                     <li>Networking</li>
-            <!-- Add more skills as needed -->
+                    <!-- Add more skills as needed -->
                 </ul>
-                </p>
             </section>
 
             <!-- New quote section -->
