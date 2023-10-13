@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Kristen Narreau</title>
+    <style>
+
+        body, h1, h2, p, ul, blockquote, img {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #7cc0e1;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+
+
+        nav ul {
+            list-style: none;
+            margin-top: 1em;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1em;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul a:hover {
+            color: #28a745;
+        }
+
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1em;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+
+        section {
+            margin-bottom: 2em;
+            text-align: center; /* Center text in the section */
+        }
+
+
+        .quote {
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+            margin-top: 2em;
+            border-radius: 8px;
+        }
+
+        blockquote {
+            font-style: italic;
+        }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        p {
+            margin-bottom: 1em;
+        }
+
+
+        footer {
+            margin-top: 2em;
+            padding-top: 1em;
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+
+        .content section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content section img {
+            max-width: 60%; /* Adjust the width of the image as needed */
+            margin-top: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <h1>About Kristen Narreau</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Professional Experience</h2>
+                <p>
+                    <strong>TECHNICAL PROJECT MANAGER, 11/2019 to Current</strong><br>
+                    Networking Academy – USC Technical Manager – Remote, Buford, Georgia
+                </p>
+                <p>
+                    Networking Academy – Business Analyst – Remote, Buford, Georgia
+                </p>
+                <p>
+                    <strong>IT SUPPORT TECHNICIAN, 05/2019 to 10/2019</strong><br>
+                    Local IT Company – Suwanee, Georgia
+                </p>
+                <p>
+                    <strong>HELP DESK TECHNICIAN, 02/2019 to 05/2019</strong><br>
+                    Local IT Company – Lafayette, Louisiana
+                </p>
+                <p>
+                    <strong>WORK STUDY STUDENT, 08/2018 to 12/2018</strong><br>
+                    South Louisiana Community College - Lafayette, Louisiana
+                </p>
+
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <p>
+                    <strong>Master of Science: Cybersecurity, 2025</strong><br>
+                    Kennesaw State University – Atlanta, Georgia
+                </p>
+                <p>
+                    <strong>Bachelor of Science: Information Technology, 2024</strong><br>
+                    Kennesaw State University – Atlanta, Georgia
+                </p>               
+                <p>
+                    <strong>Associate of Applied Science: Information Technology, 2019</strong><br>
+                    South Louisiana Community College - Lafayette, Louisiana
+                </p>
+                <p>
+                    <strong>Associate of Arts: General Studies, 2012</strong><br>
+                    Pensacola State College - Pensacola, Florida
+                </p>
+            </section>
+
+            <section>
+                <h2>Accomplishments</h2>
+                <ul>
+                    <li>CCNA Certified (Expires 2026)</li>
+                    <li>CompTIA A+ Certified (Expires 2024)</li>
+                    <li>CCST Networking Certified</li>
+                    <li>CCST Cybersecurity Certified</li>
+                    <li>Phi Theta Kappa Honor Society</li>
+                    <li>President's List - 4.0 GPA</li>
+                    <li>Chancellor's List - 4.0 GPA</li>
+
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 - Kristen Hudson</p>
+        </footer>
+    </div>
+</body>
+
+</html>
