@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>The Travels of Isabelle</title>
 </head>
-
 <body>
-    <div class="content">
-        <header>
-            <h1>About Kristen Narreau</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <main>
-            <section>
-                <h2>Contact Information</h2>
-                <p>
-                    <strong>Email Address</strong><br>
-                    Kristen can be contacted directly at khudso52@students.kennesaw.edu
-                </p>
-                <p>
-                    <strong>LINKEDIN</strong><br>
-                    Please feel free to connect with Kristen on LinkedIn <a href="https://www.linkedin.com/in/kristennarreau/">HERE</a>
-                </p>
-            </section>
 
-        </main>
+    <header>
+        <h1>The Travels of Isabelle</h1>
+    </header>
 
-        <footer>
-            <p>&copy; 2023 - Kristen Narreau</p>
-        </footer>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="#">Destinations</a>
+        <a href="#">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="process-form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
     </div>
-</body>
 
+
+    <footer>
+        <p>&copy; 2023 Isabelle's Travel Blog. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
