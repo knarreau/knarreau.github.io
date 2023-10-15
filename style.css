@@ -43,6 +43,11 @@ nav a {
     border-radius: 20px;
 }
 
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
 .featured-image {
     width: 100%;
     max-width: 800px;
