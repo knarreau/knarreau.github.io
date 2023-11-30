@@ -66,6 +66,14 @@ nav a:hover {
     border-radius: 10px; 
 }
 
+img[src$="CouchCuddles.jpg"] {
+    width: 100%;
+    max-width: 800px;
+    max-height: 900px; 
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
 .about-me {
     text-align: center;
 }
