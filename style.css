@@ -74,6 +74,10 @@ img[src$="CouchCuddles.jpg"] {
     border-radius: 10px; 
 }
 
+img[src$="the-travels-of-isabelle-high-resolution-logo-long.png"] {
+    border-radius: 0;
+}
+
 .about-me {
     text-align: center;
 }
