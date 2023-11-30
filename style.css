@@ -83,7 +83,7 @@ img[src$="the-travels-of-isabelle-high-resolution-logo-long.png"] {
 }
 
 .about-me img {
-    border-radius: 50%;
+    border-radius: 0;
     margin-bottom: 20px;
 }
 
